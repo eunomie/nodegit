@@ -89,8 +89,7 @@ function build() {
 
     target = "--target=" + asVersion;
 
-    distUrl = "--dist-url=https://gh-contractor-zcbenz.s3." +
-      "amazonaws.com/atom-shell/dist";
+    distUrl = "--dist-url=https://atom.io/download/atom-shell";
   }
   else if (nwVersion) {
     builder = "nw-gyp";
